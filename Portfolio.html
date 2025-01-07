@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <style>
+     body{
+         margin: 0 !important;
+         padding: 0 !important;
+         transition: 1s linear;
+         max-width: 100%;
+     }
+        header{
+            background: #35424a;
+            border-bottom: 5px solid blue;
+            position: static;
+        }
+        h1{
+            color: white;
+        }
+        #highlight{
+            color: Blue;
+            text-shadow:0 0 19px white;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            padding: 2px;
+            transition: 2s ease;
+            margin-left: 3px;
+        }
+        
+        nav ul{
+            list-style-type: none;
+            color: white;
+        }
+        nav ul li{
+            display: inline;
+            padding: 2px;
+            margin-left: 3px;
+            font-size: 20px;
+            color: white;
+            margin-left: 3px;
+            ma
+        }
+        nav a:hover{
+            color: black;
+        }
+        #showcase{
+            background:url('../img/showcase.jpg')                    no-repeat;
+            background-position: center;
+            background-size: cover;
+            text-align:center;
+            margin-bottom: 0%;
+            margin-top: -5%;
+            border-bottom: 3px solid blue;
+            border-top: 3px solid blue;
+            
+        }
+        #newsletter{
+           padding:15px;
+           color:#ffffff;
+           background:#35424a;
+        }
+
+       #newsletter h1{
+       float:left;
+        }
+
+       #newsletter form {
+       float:right;
+       margin-top:15px;
+       }
+
+       #newsletter input[type="email"]{
+       padding:5px;
+       height:25px;
+       width:250px;
+       }
+       #Porfolio h4{
+           font-family: fantasy;
+       }
+.button_1{
+  height:38px;
+  background: blue;
+  border:0;
+  padding-left: 21px;
+  padding-right:21px;
+  color:#ffffff;
+  width: 263px;
+  margin-top: 10px;
+}
+#container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+#skills{
+  align-items: center;
+  margin-left; 50%;
+  margin-right: 20px;
+  padding-left: 75px;
+}
+#skills h3{
+    padding-left: 65px;
+}
+#img1{
+    width: 20em;
+    border-radius: 2em;
+      box-shadow: 0 0 19px blue;
+    background: radial-gradient(rgba(255, 255, 255,0.822),
+    rgb(66, 113, 241));
+   
+    animation: glow 10s infinite;
+    @keyframes glow {
+        0%{
+            transform: scale(32);
+            opacity: 10.5;
+    }
+    50%{
+        transform: scale(3.2);
+        opacity: 32;
+    }
+      100%{
+        transform: scale(32);
+        opacity: 1.5;
+      }  
+    }
+}
+#img2{
+    width: 17em;
+    border-radius: 2em;
+      box-shadow: 0 0 19px blue;
+    background: radial-gradient(rgba(255, 255, 255,0.822),
+    rgb(66, 113, 241));
+   
+    animation: glow 10s infinite;
+    @keyframes glow {
+        0%{
+            transform: scale(32);
+            opacity: 10.5;
+    }
+    50%{
+        transform: scale(3.2);
+        opacity: 32;
+    }
+      100%{
+        transform: scale(32);
+        opacity: 1.5;
+      }  
+    }
+}
+
+#box{
+    align-items: center;
+    margin-left; 50px;
+}
+#form{
+    align-items: center;
+    background-color: #35424a;
+    padding: 10px;
+}
+#form input{
+    padding-left: 20px;
+    paadding-right: 20px;
+    width: 75%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-left: 25px;
+    border-radius: 15px;
+}
+h3{
+    font-family: fantasy;
+}
+#form button{
+     padding-left: 5px;
+    paadding-right: 7px;
+    position: flex;
+    width: 73%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: blue;
+    margin-left: 40px;
+    border-radius: 15px;
+    transition: 5s linaer ease-in-out;
+}
+#form button:hover{
+    padding-left: 5px;
+    paadding-right: 7px;
+    position: flex;
+    width: 73%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: #333;
+    margin-left: 40px;
+    border-radius: 15px;
+}
+#filter-input{
+      padding-left: 35px;
+    paadding-right: 20px;
+    width: 75%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+#con1{
+    background-color: #35424a;
+    color: white;
+    font-family: monospace;
+}
+#About #con1 img{
+ border-radius: 250%;
+    border: 5px solid #35424a;
+    width: 320px;
+    box-shadow: 0 0 19px rgb(66, 113, 241);
+    background: radial-gradient(rgba(255, 255, 255,0.822),
+    rgb(66, 113, 241));
+   
+    animation: glow 10s infinite;
+    @keyframes glow {
+        0%{
+            transform: scale(32);
+            opacity: 10.5;
+    }
+    50%{
+        transform: scale(3.2);
+        opacity: 32;
+    }
+      100%{
+        transform: scale(32);
+        opacity: 1.5;
+      }  
+    }
+}
+.glow-effect::after{
+    content: '''';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}
+@keyframes move{
+    0%{
+   transform: translate(-50%, -50%) translateX(0);
+} 
+50%{
+    transform: translate(-50%, -50%) translateX(70px);
+}
+100%{
+    transform: translate(-50%, -50%) translateX(0);
+}
+}
+}
+#darkToggleMode{
+    width: 6%;
+    border-radius: 5px;
+    height: 2%;
+}
+.dark-mode{
+    background: black;
+    color: white;
+}
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div id="top">
+        <h1>Abdulsalam <br><span id="highlight">Coding</span></h1>
+        </div>
+        <button id="darkToggleMode" style="border-radius: 3em; width: 10%; padding: 0 0;"><i class="fas fa-sun"></i>/<i class="fas fa-moon"></i></button>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="#Home">
+    <div id="showcase">
+        <h2>Affordable website development</h2>
+        <span style="color: white;
+            font-family: fantasy;">I am a website developer/designer with skills of html css and JavaScript.</span>
+    </div>
+    <section id="newsletter">
+    <div id="container">
+        <h2>Subscribe to my newsletter</h2>
+       <form>
+           <input type="email" placeholder="Enter email...." required>
+       <button  class="button_1">Subscribe</button>
+       </form>       
+    </div>
+    </section>
+    <div id="skills">
+    <h1>Skills</h1>    
+    <h3>Html</h3>
+    <img src="./img/logo_html.png" >
+    <h3>Css</h3>
+    <img src="./img/logo_css.png" >
+    <h3 style="padding-left: 30px;">JavaScript</h3>
+    <img src="Screenshot_20241103-100837_1.png" style="max-width: 40%; width: 50%; padding-left: 20px; ! important">
+    </div>
+    <section id="Contact">
+        <div id="con"><h2 style="padding-left: 30px;">Contact Form</h2>
+            <form id="form">
+                <input type="name" placeholder="Enter name" required><p></p>
+               <input type="email" placeholder="Enter email..." required><p></p>
+                <input type="telephone" placeholder="Enter phone number" required><p></p>
+                <button id="submit" onclick="button()">Send</button>
+                <hr>
+                <a href="mailto: mojeedabdulsalamdp24@gmail.com" style="text-decoration: none; color: white;">mojeedabdulsalamdp24@gmail.com</a>
+            </form>
+        </div>
+    </section>
+    <section id="Portfolio" style="align-items: center; text-align: center;">
+          <h2 style="padding-left: 30px; color: Black;">Projects</h2>
+          <img src="Annotation 2024-10-28 074946.jpg" id="img1" style="align-items: center; text-align: center;"><br>
+          <h4>A transparent login form</h4>
+          <p>A form created with HTML and CSS,very responsive and beautiful.</p>
+          <img src="Annotation 2024-10-28 083359.jpg" id="img2" style="align-items: center; text-align: center;"><br>
+          <h4>An Image slider</h4>
+          <p>An animated image slider created HTML and CSS </p>
+       
+    </section>
+    <section>
+<button id="scroll-top-button" style="float: right; border-radius: 5px; width: 40px; ">&uparrow;</button><p></p>
+</section>
+
+    <section id="About">
+        <div id="con1" style="align-items: center;">
+                      <h2 style="padding-left: 30px;">About me</h2>
+                      <img src="IMG-20241015-WA0043_1.jpg" id=""><br>
+                  <span>Hi i'm Mojeed Abdulsalam,a passionate Front-end developer 
+            specalizing in translating design concept into seamless and 
+            interactive web experiences using HTML,CSS and JavaScript.
+        I'm looking forward in learning Back-end development,so that i can become
+         a 
+    Full-stack developer</span>    
+        </div>
+        
+    </section>
+    
+    
+    
+    <script>
+        function button() {
+            document.querySelector("button")
+            alert("Sent");
+        }
+        const toggleDarkMode = document.getElementById("darkToggleMode").addEventListener('click', function() {
+            document.body.classList.toggle('dark-mode');
+        });
+      
+       window.addEventListener('scroll', function() {
+            const scrollToTopButton = document.getElementById('scrollToTop');
+            scrollToTopButton.style.display = window.scrollY > 200 ? 'block' : 'none';
+        }); document.getElementById('scroll-top-button').addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>
